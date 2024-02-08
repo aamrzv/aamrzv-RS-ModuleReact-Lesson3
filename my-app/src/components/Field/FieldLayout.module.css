@@ -1,0 +1,33 @@
+.bnt{
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 3px;
+	margin: 5px;
+	line-height: 95px;
+	cursor: pointer;
+	float: left;
+	background-color: #4bc7c7;
+}
+
+.bntWin{
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+	border-radius: 3px;
+	margin: 5px;
+	line-height: 95px;
+	cursor: pointer;
+	float: left;
+	color: #A61F1F;
+	background-color: #FFA8A8;
+}
+
+.Block{
+	width: 400px;
+	float: left;
+}

@@ -1,0 +1,33 @@
+.conteiner{
+	display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.btn {
+	width: 330px;
+    font-size: 15px;
+    background: #FFA860;
+    padding: 8px 10px;
+    color: black;
+    border-color: #A6791F;
+    border-radius: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    }
+
+@keyframes glowing {
+	0% { background-color: #FFA860 }
+	50% { background-color: #FFE2A8 }
+	100% { background-color: #FFA860 }
+	}
+
+.btnAn {
+	animation: glowing 1300ms infinite;
+	}
